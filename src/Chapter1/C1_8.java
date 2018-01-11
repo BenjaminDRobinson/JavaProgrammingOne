@@ -6,7 +6,6 @@ package Chapter1;
  * @author Ben Robinson
  */
 public class C1_8 {
-
     /**
      * Main Method
      *

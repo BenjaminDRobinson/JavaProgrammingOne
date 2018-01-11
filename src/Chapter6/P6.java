@@ -76,7 +76,13 @@ public class P6 {
                     } while ((!(answer.equals("no"))) || (!(answer.equals("yes"))));
         } while(answer.equals("yes"));
     }
-    
+    /**
+     * Main Method
+     *
+     * @param dollar amount of dollars.
+     * @param currency what kind of currency is being converted.
+     * @return total amount of dollars.
+     */
     public static double convert(double dollar, double currency){
         double tax;
         double remaining;

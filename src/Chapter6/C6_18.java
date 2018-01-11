@@ -22,7 +22,12 @@ public class C6_18 {
             System.out.println("Invalid password");
         }
     }
-
+/**
+     * Checking Password
+     *
+     * @param password is checked.
+     * @return true or false whether password meets requirements.
+     */
     public static boolean checkPassword(String password) {
         int counter = 0;
         // Must have at least 8 characters
@@ -31,7 +36,7 @@ public class C6_18 {
             return false;
         }
         //Must consist of only letters or numbers
-        for (int i = 0; i < password.length(); i++){
+        for (int i = 0; i < password.length(); i++){ 
             if (!(Character.isLetterOrDigit(password.charAt(i)))){
                 System.out.println("A password must consist of only letters and digits");
                 return false;

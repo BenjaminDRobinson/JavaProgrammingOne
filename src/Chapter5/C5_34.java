@@ -1,9 +1,10 @@
+package Chapter5;
+import java.util.Scanner;
 /**
  * Program that will play Rock, Paper, Scissors.
  *
  * @author Ben Robinson
  */
-import java.util.Scanner;
 public class C5_34 {
     /**
      * Main Method

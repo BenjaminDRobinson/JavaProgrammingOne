@@ -1,11 +1,10 @@
 package Chapter5;
-
+import java.util.Scanner;
 /**
  * Program that can count votes.
  *
  * @author Ben Robinson
  */
-import java.util.Scanner;
 public class P5 {
     /**
      * Main Method

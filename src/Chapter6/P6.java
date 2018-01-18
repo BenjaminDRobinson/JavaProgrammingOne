@@ -43,6 +43,7 @@ public class P6 {
                 System.out.printf("For %4.2f dollars, you can buy %.2f Yen", dollar, convert(dollar, currency));
                 break;
                 //If invalid answer
+                //
                 default: do{
             System.out.print("Enter E to buy Euros, P to buy Pounds, or Y to buy Yen: ");
             conversion = input.next().toLowerCase();

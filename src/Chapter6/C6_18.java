@@ -1,11 +1,14 @@
 package Chapter6;
+
 import java.util.Scanner;
+
 /**
  * Program that checks a password for certain things.
  *
  * @author Ben Robinson
  */
 public class C6_18 {
+
     /**
      * Main Method
      *
@@ -22,7 +25,8 @@ public class C6_18 {
             System.out.println("Invalid password");
         }
     }
-/**
+
+    /**
      * Checking Password
      *
      * @param password is checked.
@@ -36,25 +40,23 @@ public class C6_18 {
             return false;
         }
         //Must consist of only letters or numbers
-        for (int i = 0; i < password.length(); i++){ 
-            if (!(Character.isLetterOrDigit(password.charAt(i)))){
+        for (int i = 0; i < password.length(); i++) {
+            if (!(Character.isLetterOrDigit(password.charAt(i)))) {
                 System.out.println("A password must consist of only letters and digits");
                 return false;
             }
         }
         //Must contain at least two digits
-        for (int i = 0; i < password.length(); i++){
-            if (Character.isDigit(password.charAt(i))){
+        for (int i = 0; i < password.length(); i++) {
+            if (Character.isDigit(password.charAt(i))) {
                 ++counter;
             }
         }
-        if (counter < 2){
+        if (counter < 2) {
             System.out.println("A password must contain at least two digits");
             return false;
         }
         return true;
     }
-    
+
 }
-
-

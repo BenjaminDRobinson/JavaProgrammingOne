@@ -10,5 +10,5 @@ package Chapter2;
  * @author br0996346
  */
 public class C2_2 {
-    
+
 }
